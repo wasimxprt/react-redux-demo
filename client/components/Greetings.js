@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default () => {
-    return (
-        <div>
-            <h1>Hello World</h1>
-        </div>
-    )
+class Greetings extends Component {
+    render() {
+        return (
+            <div className="jumbotron">
+                <h1>Hello !!</h1>
+            </div>
+        );
+    }
 }
+
+export default Greetings;
